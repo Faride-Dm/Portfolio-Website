@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  display: block;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 96px;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link {
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.about-link {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.home {
+  display: block;
+  top: 20px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.home:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.article-1,
+.article-2 {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  flex: 1;
+}
+
+#contact {
+  display: block;
+  margin: auto 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  text-align: center;
+}
