@@ -38,18 +38,21 @@ p {
   text-align: center;
 }
 
-#explain {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#explain,
+#about {
   background: none;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
-}
-
-img {
-  box-sizing: border-box;
-  vertical-align: middle;
 }
 
 .project02,
