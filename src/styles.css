@@ -5,9 +5,8 @@
 }
 
 body {
-  display: block;
-  margin: 50px auto;
-  max-width: 800px;
+  margin: 60px 30px;
+  max-width: 100%;
 }
 
 h1 {
@@ -28,6 +27,46 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
   text-align: center;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#explain {
+  background: none;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+img {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.project02,
+.project03,
+.project04,
+.project01 {
+  margin-top: 50px;
+}
+
+.launch-links {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.bg-images {
+  background: var(--bg-gradient) !important;
 }
 
 .navigation-links {
