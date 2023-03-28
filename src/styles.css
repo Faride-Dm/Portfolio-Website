@@ -106,3 +106,16 @@ p {
 #contact {
   margin-top: 50px;
 }
+
+@media (max-width: 500px) {
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  a {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
