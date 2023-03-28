@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -105,22 +105,31 @@ p {
 
 #contact {
   margin-top: 50px;
+  font-size: 18px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 1.5;
   }
 
   h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
   }
 
-  a {
-    display: block;
-    margin: 10px auto;
+  p {
     text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 18px;
   }
 }
