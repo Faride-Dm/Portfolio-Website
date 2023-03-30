@@ -16,19 +16,24 @@ h3 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
   font-size: 24px;
+  font-family: "Poppins", sans-serif;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
 }
 
@@ -101,6 +106,10 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+#logo {
+  max-width: 90px;
 }
 
 #contact {
