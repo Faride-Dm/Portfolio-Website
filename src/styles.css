@@ -1,7 +1,10 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --paragraph-color: #272142;
+  --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -17,37 +20,37 @@ h3 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
 }
 
 h2 {
   font-size: 48px;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
 
 h3 {
   font-size: 24px;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   line-height: 1.5;
-  color: #272142;
+  color: var(--paragraph-color);
   opacity: 0.7;
 }
 
 .container-with-bg-color {
   padding: 150px 0;
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
 }
 
 .navbar {
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
 }
 
 .bg-images {
