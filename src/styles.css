@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --paragraph-color: #272142;
+  --link-color: #6c63ff;
+  --paragraph-text-color: #272142;
   --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
@@ -9,12 +9,13 @@
 
 body {
   margin-bottom: 100px;
+  font-family: var(--default-font-family);
 }
 
 h1,
 h2,
 h3 {
-  margin: 0;
+  color: black;
 }
 
 h1 {
@@ -26,26 +27,25 @@ h1 {
 h2 {
   font-size: 48px;
   line-height: 1.5;
-  font-family: var(--default-font-family);
 }
 
 h3 {
   font-size: 24px;
   line-height: 1.5;
-  font-family: var(--default-font-family);
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
-  font-family: var(--default-font-family);
+  font-weight: normal;
   line-height: 1.5;
-  color: var(--paragraph-color);
+  color: var(--paragraph-text-color);
   opacity: 0.7;
 }
 
-.container-with-bg-color {
-  padding: 150px 0;
+.hero {
+  padding: 160px 20px;
+  text-align: center;
   background-color: var(--background-color);
 }
 
@@ -69,26 +69,30 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--link-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--link-color);
+  border: 1px solid var(--link-color);
+}
+
+.secondary-link:hover {
+  box-shadow: var(--box-shadow);
 }
 
 .home {
   display: block;
-  color: var(--primary-color);
+  color: var(--link-color);
   text-align: center;
 }
 
@@ -115,7 +119,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--link-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -125,7 +129,7 @@ p {
 }
 
 .d-flex {
-  color: var(--primary-color);
+  color: var(--link-color);
 }
 
 .talk-button {
