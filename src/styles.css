@@ -49,6 +49,17 @@ p {
   background-color: var(--background-color);
 }
 
+.container {
+  padding: 140px 20px;
+}
+
+.about {
+  font-size: 64px;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
 .navbar {
   background-color: var(--background-color);
 }
