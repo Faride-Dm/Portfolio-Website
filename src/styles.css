@@ -53,8 +53,14 @@ p {
   background-color: var(--background-color);
 }
 
-.bg-images {
+.left-images {
   background: var(--bg-gradient);
+  margin: 0 100px 0 0;
+}
+
+.right-images {
+  background: var(--bg-gradient);
+  margin: 0 0 0 100px;
 }
 
 .navigation-links {
