@@ -1,5 +1,5 @@
 :root {
-  --link-color: #6c63ff;
+  --button-color: #6c63ff;
   --paragraph-text-color: #272142;
   --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -43,6 +43,10 @@ p {
   opacity: 0.7;
 }
 
+.navbar {
+  background-color: var(--background-color);
+}
+
 .homepage-hero {
   padding: 160px 20px;
   text-align: center;
@@ -75,8 +79,9 @@ p {
   font-size: 16px;
 }
 
-.navbar {
-  background-color: var(--background-color);
+.image-style {
+  padding: 50px 30px 50px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .left-images {
@@ -104,7 +109,7 @@ p {
   padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--link-color);
+  background: var(--button-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -114,8 +119,8 @@ p {
   padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--link-color);
-  border: 1px solid var(--link-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
 }
 
 .secondary-link:hover {
@@ -124,7 +129,7 @@ p {
 
 .home {
   display: block;
-  color: var(--link-color);
+  color: var(--button-color);
   text-align: center;
 }
 
@@ -151,7 +156,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--link-color);
+  color: var(--button-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -160,17 +165,13 @@ p {
   text-decoration: underline;
 }
 
-.talk-button {
-  right: 0;
-}
-
 .footer {
   font-size: 32px;
   line-height: 1.5;
   font-family: "Playfair Display", serif;
 }
 
-.talk {
+.talk-button {
   display: block;
   margin: 0 120px;
   text-align: center;
@@ -218,12 +219,12 @@ p {
     padding-bottom: 10px;
   }
 
-  .about-hero {
+  .content-hero {
     text-align: center;
     padding: 80px 20px;
   }
 
-  .about-hero h1 {
+  .content-hero h1 {
     font-size: 48px;
   }
 
@@ -233,11 +234,15 @@ p {
     text-align: center;
   }
 
+  .image-style {
+    margin-top: 40px;
+  }
+
   .email-link {
     font-size: 18px;
   }
 
-  .talk {
+  .talk-button {
     display: block;
     margin: 20px 100px;
     text-align: center;
