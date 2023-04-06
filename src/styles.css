@@ -43,30 +43,35 @@ p {
   opacity: 0.7;
 }
 
-.hero {
+.homepage-hero {
   padding: 160px 20px;
   text-align: center;
   background-color: var(--background-color);
 }
 
-.about-hero {
+.content-hero {
   text-align: left;
   line-height: 1;
   margin-bottom: 20px;
-  padding: 140px 120px;
+  padding: 120px;
 }
 
-.about-hero h1 {
+.content-hero h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
 
-.about-hero h3 {
+.content-hero h2 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+.content-hero h3 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-hero p {
+.content-hero p {
   font-size: 16px;
 }
 
@@ -172,7 +177,9 @@ p {
 }
 
 #footer {
-  margin-top: 100px;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: var(--background-color);
 }
 
 #logo {
