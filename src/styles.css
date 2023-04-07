@@ -47,6 +47,36 @@ p {
   background-color: var(--background-color);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--paragraph-text-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .homepage-hero {
   padding: 140px 20px;
   text-align: center;
@@ -57,7 +87,7 @@ p {
   text-align: left;
   line-height: 1;
   margin-bottom: 20px;
-  padding: 120px;
+  padding: 100px;
 }
 
 .content-hero h1 {
@@ -148,6 +178,7 @@ p {
 
 #contact {
   display: block;
+  margin-top: 50px;
   margin: auto 0;
   font-size: 18px;
   text-align: center;
@@ -178,18 +209,9 @@ p {
 }
 
 #footer {
-  margin-top: 80px;
+  margin-top: 50px;
   padding: 20px;
   background-color: var(--background-color);
-}
-
-#logo {
-  max-width: 90px;
-}
-
-#contact {
-  margin-top: 50px;
-  font-size: 18px;
 }
 
 @media (max-width: 900px) {
@@ -212,6 +234,10 @@ p {
   p {
     text-align: center;
     font-size: 16px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .homepage-hero {
@@ -244,7 +270,7 @@ p {
 
   .talk-button {
     display: block;
-    margin: 20px 80px;
+    margin: 20px 60px;
     text-align: center;
   }
 }
