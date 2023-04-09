@@ -48,7 +48,7 @@ p {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 nav ul {
@@ -73,12 +73,47 @@ nav li.active a {
   color: var(--button-color);
 }
 
+footer {
+  margin: 50px;
+}
+
+footer .contact-box {
+  padding: 20px 100px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  font-family: "Playfair Display", serif;
+}
+
+footer .social-links a {
+  color: var(--button-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  margin: 10px 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--button-color);
+}
+
 .logo {
   max-height: 40px;
 }
 
 .homepage-hero {
-  padding: 140px 20px;
+  padding: 120px 20px;
   text-align: center;
   background-color: var(--background-color);
 }
@@ -176,43 +211,11 @@ nav li.active a {
   margin: 30px;
 }
 
-#contact {
+/* .talk-button {
   display: block;
-  margin-top: 50px;
-  margin: auto 0;
-  font-size: 18px;
+  margin: 0 100px;
   text-align: center;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--button-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.footer {
-  font-size: 32px;
-  line-height: 1.5;
-  font-family: "Playfair Display", serif;
-}
-
-.talk-button {
-  display: block;
-  margin: 0 170px;
-  text-align: center;
-}
-
-#footer {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: var(--background-color);
-}
+} */
 
 @media (max-width: 900px) {
   h1 {
@@ -241,7 +244,7 @@ nav li.active a {
   }
 
   .homepage-hero {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 10px;
   }
 
@@ -262,10 +265,6 @@ nav li.active a {
 
   .image-style {
     margin-top: 40px;
-  }
-
-  .email-link {
-    font-size: 18px;
   }
 
   .talk-button {
