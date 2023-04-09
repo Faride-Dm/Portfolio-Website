@@ -69,41 +69,6 @@ nav li.active a {
   color: var(--button-color);
 }
 
-footer {
-  margin: 100px 80px;
-}
-
-footer .contact-box {
-  padding: 20px 100px;
-  border-radius: 10px;
-  background-color: var(--background-color);
-}
-
-footer .contact-box p {
-  margin: 0;
-}
-
-footer h2 {
-  font-size: 32px;
-  line-height: 1.5;
-  font-family: "Playfair Display", serif;
-}
-
-footer .social-links a {
-  color: var(--button-color);
-  background: var(--background-color);
-  padding: 10px 14px;
-  margin: 10px 10px;
-  border-radius: 50%;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social-links a:hover {
-  color: white;
-  background: var(--button-color);
-}
-
 .logo {
   max-height: 40px;
 }
@@ -196,6 +161,41 @@ footer .social-links a:hover {
   margin: 30px;
 }
 
+footer {
+  margin: 80px;
+}
+
+footer .contact-box {
+  padding: 20px 100px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  font-family: "Playfair Display", serif;
+}
+
+footer .social-links a {
+  color: var(--button-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  margin: 10px 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--button-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 42px;
@@ -244,11 +244,5 @@ footer .social-links a:hover {
 
   .image-style {
     margin-top: 40px;
-  }
-
-  .talk-button {
-    display: block;
-    margin: 20px 60px;
-    text-align: center;
   }
 }
